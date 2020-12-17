@@ -55,10 +55,7 @@
                         </goals>
                     </execution>
                 </executions>
-      </plugin>
-        
-    </plugins>
-    <plugins>
+      </plugin>       
           <plugin>
       <groupId>org.openclover</groupId>
         <artifactId>clover-maven-plugin</artifactId>
