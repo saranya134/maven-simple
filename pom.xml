@@ -57,19 +57,14 @@
                 </executions>
       </plugin>       
           <plugin>
-      <groupId>org.openclover</groupId>
-        <artifactId>clover-maven-plugin</artifactId>
-        <version>4.2.0</version>
-      </plugin>
+    <groupId>com.atlassian.maven.plugins</groupId>
+    <artifactId>maven-clover2-plugin</artifactId>
+    <configuration>
+        <generateHtml>true</generateHtml>
+        <generateXml>true</generateXml>
+    </configuration>
+</plugin>
           </plugins>
   </build>
-      <reporting>
-    <plugins>
-          <plugin>
-      <groupId>org.openclover</groupId>
-        <artifactId>clover-maven-plugin</artifactId>
-        <version>4.2.0</version>
-      </plugin>
-          </plugins>
-         </reporting>
+      
 </project>
